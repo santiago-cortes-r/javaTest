@@ -1,4 +1,4 @@
-package util;
+package utilString;
 
 public class StringUtil {
 

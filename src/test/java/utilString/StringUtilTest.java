@@ -1,4 +1,4 @@
-package util;
+package utilString;
 
 
 import org.junit.jupiter.api.Test;
@@ -25,9 +25,9 @@ public class StringUtilTest {
 
     @Test
     public void repeat_string_negative_times() {
-        assertThrows(IllegalArgumentException.class, () -> {
-            StringUtil.repeat("hola", -1);
-        });
+        assertThrows(IllegalArgumentException.class,
+        () -> StringUtil.repeat("hola", -1)
+        );
     }
 
 }
