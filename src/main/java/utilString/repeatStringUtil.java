@@ -1,6 +1,6 @@
 package utilString;
 
-public class StringUtil {
+public class repeatStringUtil {
 
     public static String repeat(String str, int times) {
 
