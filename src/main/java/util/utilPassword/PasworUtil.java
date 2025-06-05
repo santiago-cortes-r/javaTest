@@ -1,7 +1,7 @@
-package utilPassword;
+package util.utilPassword;
 
 public class PasworUtil {
-    enum SecurityLevel{
+    public enum SecurityLevel{
         WEAK, MEDIUM, STRONG
     }
     public static SecurityLevel assessPassword(String password){

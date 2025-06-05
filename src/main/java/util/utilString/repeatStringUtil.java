@@ -1,4 +1,4 @@
-package utilString;
+package util.utilString;
 
 public class repeatStringUtil {
 
