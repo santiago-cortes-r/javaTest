@@ -1,4 +1,4 @@
-package utilPassword;
+package util.utilPassword;
 
 import org.junit.jupiter.api.Test;
 import util.utilPassword.PasworUtil;
